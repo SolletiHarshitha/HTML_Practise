@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FlexBox Cards</title>
+        <style>
+            .cards {
+              display: flex;
+              flex-wrap: wrap;
+              align-items: stretch;
+            }
+            .card {
+              flex: 0 0 200px;
+              margin: 10px;
+              border: 1px solid #ccc;
+              box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+            } 
+            .card img {
+              max-width: 100%;
+            }
+            .card .text {
+              padding: 0 20px 20px;
+            }
+            .card .text > button {
+              background: gray;
+              border: 0;
+              color: white;
+              padding: 10px;
+              width: 100%;
+              }
+          </style>
+    </head>
+    <body>
+        <main class="cards">
+            <article class="card">
+              <img src="../assets/Bird1.jpg" alt="Sample photo">
+              <div class="text">
+                <h3>Andean Cock-of-the-Rock</h3>
+                <p>A bird almost too beautiful to believe, these colorful creatures reside in the 
+                    Andes Mountains of South America. They nest among the rocks in order to hide 
+                    their extraordinary appearance that attracts preying eagles and jaguars. 
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="../assets/Bird2.jpg" alt="Sample photo">
+              <div class="text">
+                <h3>Turquoise-Browed Motmot</h3>
+                <p>Another bird full of stunning colors, the Turquoise-Browed Motmot can be found 
+                    in the tropical areas of South America, although the origins of the bird trace 
+                    back to Switzerland. 
+                 </p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="../assets/Bird3.jpg" alt="Sample photo">
+              <div class="text">
+                <h3>Long-Tailed Widowbird</h3>
+                <p>The Long-Tailed Widowbird is a common species in the savannas and plains of 
+                    South Africa. Males have a very long tail feather that reaches a length of 
+                    about 20 inches (half a meter). 
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="../assets/Bird4.jpg" alt="Sample photo">
+              <div class="text">
+                <h3>Greater Bird of Paradise</h3>
+                <p>The Greater Bird of Paradise is an extraordinary bird that is also known 
+                    as the 'legless bird-of-paradise'. This is because, in the 18th and 19th 
+                    centuries, their skins were sent to Europe without legs, leading to the 
+                    misconception that the birds were visitors from paradise that never touched 
+                    the earth until their death.
+                </p>
+              </div>
+            </article>
+          </main>
+    </body>
+</html>
